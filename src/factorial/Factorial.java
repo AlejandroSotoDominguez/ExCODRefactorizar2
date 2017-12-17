@@ -1,38 +1,19 @@
 
 package factorial;
-
+/**
+ * Clase principal
+ * @author Alex
+ */
 
 public class Factorial {
-
+/**
+ * Método principal que visualiza la factorización de un número
+ * @param args 
+ */
 
     public static void main(String[] args) {
-
-
-    int j;
-    int f;
-
-  
-   j = 8;    
-   
-
-    
-   int i;
-   if (j == 0)
-f = 1;
-   else
-   {
-f = 1;
-for (i = j; i >= 1; i--)
-{
-    f = f * i;
-}
-   }    
-  
- 
-
-System.out.println(f); 
-
-
+        Calculos calc1 = new Calculos();
+        int j = 8; 
+        System.out.println(calc1.calcular(j));
     }
-    
 }
